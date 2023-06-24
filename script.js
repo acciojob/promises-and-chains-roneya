@@ -4,10 +4,10 @@
   const btn = document.querySelector('#btn');
 
   form.addEventListener('submit', (event) => {
-    event.preventDefault(); // Prevent form from submitting normally
+    event.preventDefault(); 
 
     if (nameInput.value === '' || ageInput.value === '') {
-      alert('Please fill out all fields.'); // Show validation error
+      alert('Please fill out all fields.'); 
       return;
     }
 
